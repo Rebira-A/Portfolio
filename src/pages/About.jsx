@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from 'motion/react';
 import { Terminal, Github, Linkedin, Mail, FileText, Download, Check } from 'lucide-react';
 import { useState } from 'react';

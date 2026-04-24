@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowUpRight, Terminal } from 'lucide-react';
 import { Link } from 'react-router-dom';

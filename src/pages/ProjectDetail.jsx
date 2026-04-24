@@ -1,8 +1,8 @@
+import React, { useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ArrowLeft, Github, Globe, Code2, Cpu, ExternalLink } from 'lucide-react';
 import { projects } from '../constants';
-import { useEffect } from 'react';
 
 export default function ProjectDetail() {
   const { id } = useParams();

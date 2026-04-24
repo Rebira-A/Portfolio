@@ -9,7 +9,7 @@ import Architecture from './pages/Architecture';
 import Contact from './pages/Contact';
 import ProjectDetail from './pages/ProjectDetail';
 
-function PageWrapper({ children }: { children: React.ReactNode }) {
+function PageWrapper({ children }) {
   const location = useLocation();
   return (
     <motion.div

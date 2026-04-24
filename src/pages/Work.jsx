@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ArrowUpRight, Code2 } from 'lucide-react';
@@ -62,7 +63,7 @@ export default function Work() {
       <section className="mt-32 py-24 border-y border-neutral-900 text-center">
          <h2 className="text-[10px] font-mono text-neutral-500 mb-8 tracking-widest uppercase">Ongoing Development</h2>
          <p className="text-2xl md:text-4xl font-bold tracking-tight text-white uppercase italic">
-           7 Projects / 7 Days Challenge Successfully Completed
+            7 Projects / 7 Days Challenge Successfully Completed
          </p>
       </section>
     </div>

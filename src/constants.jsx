@@ -1,3 +1,4 @@
+import React from 'react';
 import { Terminal, Cpu, Layers, Code2 } from 'lucide-react';
 
 export const projects = [
