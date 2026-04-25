@@ -19,8 +19,13 @@
 }
 
 .outline-text {
-  -webkit-text-stroke: 1px #262626;
+  -webkit-text-stroke: 1px #404040;
   color: transparent;
+  transition: -webkit-text-stroke 0.3s ease;
+}
+
+.outline-text:hover {
+  -webkit-text-stroke: 1px #ffffff;
 }
 
 .brutalist-border {

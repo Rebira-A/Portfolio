@@ -23,7 +23,7 @@ export default function Architecture() {
             initial={{ opacity: 0, x: i % 2 === 0 ? -20 : 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="p-12 border border-neutral-900 bg-neutral-900/10 hover:bg-neutral-800/20 transition-all duration-300 relative group"
+            className="p-6 sm:p-12 border border-neutral-900 bg-neutral-900/10 hover:bg-neutral-800/20 transition-all duration-300 relative group overflow-hidden"
           >
             <div className="flex justify-between items-start mb-8">
               <div className="p-4 bg-brand-black border border-neutral-800 group-hover:border-neutral-600 transition-colors">
@@ -49,7 +49,7 @@ export default function Architecture() {
             </div>
 
             {/* Matrix Visual Accent */}
-            <div className="absolute bottom-0 right-0 p-4 font-mono text-[80px] text-neutral-900 leading-none select-none -z-10 group-hover:text-neutral-800 transition-colors">
+            <div className="absolute bottom-0 right-0 p-4 font-mono text-[80px] text-neutral-900 leading-none select-none -z-10 group-hover:text-neutral-800 transition-colors hidden sm:block">
               {skill.category.split(' ')[0]}
             </div>
           </motion.div>

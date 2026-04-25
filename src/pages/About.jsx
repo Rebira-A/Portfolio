@@ -53,7 +53,7 @@ export default function About() {
            </div>
         </div>
 
-        <div className="col-span-1 md:col-span-4 border-l border-neutral-900 pl-12 space-y-24">
+        <div className="col-span-1 md:col-span-4 md:border-l border-neutral-900 md:pl-12 space-y-24 mt-24 md:mt-0">
            <div>
               <h3 className="text-[10px] font-mono text-neutral-600 mb-6 tracking-widest uppercase italic">Education</h3>
               <div className="space-y-8">
@@ -95,10 +95,10 @@ export default function About() {
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        className="mt-32 pt-12 border-t border-neutral-900 flex justify-between items-end"
+        className="mt-32 pt-12 border-t border-neutral-900 flex justify-between items-end overflow-hidden"
       >
-        <span className="text-[150px] font-extrabold text-neutral-900 leading-[0.7] select-none uppercase tracking-tighter">Velocity</span>
-        <div className="mb-4 text-right">
+        <span className="hidden sm:block text-[150px] font-extrabold text-neutral-900 leading-[0.7] select-none uppercase tracking-tighter">Velocity</span>
+        <div className="mb-4 text-left sm:text-right w-full sm:w-auto">
            <p className="text-[10px] font-mono text-neutral-500 uppercase tracking-widest">Architectural DNA</p>
            <p className="text-xs text-white uppercase italic">Clean Separation / Pure Performance</p>
         </div>

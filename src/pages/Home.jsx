@@ -13,7 +13,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-6xl md:text-9xl font-bold tracking-tight leading-[0.85] text-white uppercase"
+          className="text-5xl sm:text-6xl md:text-9xl font-bold tracking-tight leading-[0.85] text-white uppercase"
         >
           Engineering <br/> 
           <span className="outline-text">Scalable Logic</span> <br/>

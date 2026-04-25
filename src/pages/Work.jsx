@@ -26,7 +26,7 @@ export default function Work() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="bg-brand-black p-12 border border-neutral-900 hover:bg-neutral-900/20 transition-all duration-500 flex flex-col h-full"
+              className="bg-brand-black p-6 sm:p-12 border border-neutral-900 hover:bg-neutral-900/20 transition-all duration-500 flex flex-col h-full"
             >
               <div className="flex justify-between items-start mb-12">
                 <span className="text-[10px] font-mono text-neutral-800 group-hover:text-neutral-500 transition-colors">0{i + 1}</span>

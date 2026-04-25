@@ -30,10 +30,10 @@ export default function Contact() {
   return (
     <div className="pt-24 min-h-screen">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-        <div className="col-span-1 md:col-span-4 border-l border-neutral-900 pl-12 space-y-24">
-           <header className="mb-24">
+        <div className="col-span-1 md:col-span-4 md:border-l border-neutral-900 md:pl-12 space-y-16 md:space-y-24">
+           <header className="mb-12 md:mb-24">
              <h2 className="text-[10px] font-mono text-neutral-500 mb-4 tracking-widest uppercase italic">Transmission / Protocol</h2>
-             <h1 className="text-5xl font-bold tracking-tighter uppercase leading-none">
+             <h1 className="text-4xl md:text-5xl font-bold tracking-tighter uppercase leading-none">
                Get In <br/> <span className="outline-text">Touch</span>
              </h1>
            </header>
@@ -62,7 +62,7 @@ export default function Contact() {
            </div>
         </div>
 
-        <div className="col-span-1 md:col-span-8 bg-neutral-900/10 border border-neutral-900 p-12 md:p-24">
+        <div className="col-span-1 md:col-span-8 bg-neutral-900/10 border border-neutral-900 p-6 sm:p-12 md:p-24">
            <form onSubmit={handleSubmit} className="max-w-xl mx-auto space-y-12">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
                 <div className="space-y-4 group">

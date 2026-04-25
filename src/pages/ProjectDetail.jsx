@@ -38,7 +38,7 @@ export default function ProjectDetail() {
            <motion.h1 
              initial={{ opacity: 0, x: -20 }}
              animate={{ opacity: 1, x: 0 }}
-             className="text-5xl md:text-8xl font-bold tracking-tighter uppercase leading-none mb-12"
+             className="text-4xl sm:text-5xl md:text-8xl font-bold tracking-tighter uppercase leading-none mb-12"
            >
              {project.title}
            </motion.h1>
@@ -46,7 +46,7 @@ export default function ProjectDetail() {
            <div className="space-y-12 text-neutral-400 font-light leading-relaxed text-lg max-w-3xl">
               <p>{project.longDescription}</p>
               
-              <div className="bg-neutral-900/20 p-12 border-l-2 border-white">
+              <div className="bg-neutral-900/20 p-6 sm:p-12 border-l-2 border-white">
                  <h4 className="text-[10px] font-mono text-neutral-600 mb-6 uppercase tracking-widest flex items-center gap-2">
                    <Code2 className="w-4 h-4" /> Architectural Reasoning
                  </h4>
